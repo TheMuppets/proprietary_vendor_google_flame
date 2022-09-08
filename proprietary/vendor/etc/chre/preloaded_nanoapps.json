@@ -1,0 +1,16 @@
+{ "source_dir": "/vendor/dsp/sdsp",
+  "nanoapps": [
+    "activity",
+    "blue",
+    "cc",
+    "drop",
+    "elmyra",
+    "geofence",
+    "gesture",
+    "health",
+    "motiondetector",
+    "oslo",
+    "sd",
+    "smartbatching",
+    "uv_exposure"
+]}
