@@ -102,7 +102,6 @@ PRODUCT_PACKAGES += \
     HbmSVManager \
     MyVerizonServices \
     OBDM_Permissions \
-    PixelNfc \
     RilConfigService \
     grilservice \
     ims \
