@@ -287,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
     vendor/google/flame/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
     vendor/google/flame/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
-    vendor/google/flame/proprietary/vendor/bin/hw/android.hardware.biometrics.face@1.0-service.google:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.face@1.0-service.google \
     vendor/google/flame/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/google/flame/proprietary/vendor/bin/hw/android.hardware.confirmationui@1.0-service-google:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.confirmationui@1.0-service-google \
     vendor/google/flame/proprietary/vendor/bin/hw/android.hardware.drm-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.widevine \
@@ -513,7 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/etc/default_coral.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_coral.mps \
     vendor/google/flame/proprietary/vendor/etc/default_f2proto.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_f2proto.mps \
     vendor/google/flame/proprietary/vendor/etc/default_flame.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_flame.mps \
-    vendor/google/flame/proprietary/vendor/etc/init/android.hardware.biometrics.face@1.0-service.google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.face@1.0-service.google.rc \
     vendor/google/flame/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/google/flame/proprietary/vendor/etc/init/android.hardware.confirmationui@1.0-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.confirmationui@1.0-service-google.rc \
     vendor/google/flame/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
@@ -1914,7 +1912,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.weaver@1.0-service.citadel \
     manifest_android.hardware.drm-service.widevine \
-    manifest_face \
     manifest_input.processor-service \
     manifest_wifi_ext \
     rebootescrow-citadel \
