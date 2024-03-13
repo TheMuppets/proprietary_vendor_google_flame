@@ -65,7 +65,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/system_ext/priv-app/EuiccGoogle/esim-a1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccGoogle/esim-a1.img \
     vendor/google/flame/proprietary/system_ext/priv-app/EuiccGoogle/esim-a2.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccGoogle/esim-a2.img \
     vendor/google/flame/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v1.img \
-    vendor/google/flame/proprietary/vendor/firmware/citadel/FIH-RC1-dev-fusing.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/citadel/FIH-RC1-dev-fusing.ec.bin
+    vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.wifi_ext-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.wifi_ext-service-vendor \
+    vendor/google/flame/proprietary/vendor/etc/init/vendor.google.wifi_ext-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wifi_ext-service.rc \
+    vendor/google/flame/proprietary/vendor/firmware/citadel/FIH-RC1-dev-fusing.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/citadel/FIH-RC1-dev-fusing.ec.bin \
+    vendor/google/flame/proprietary/vendor/lib64/google_wifi_firmware_config_info_cc_proto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/google_wifi_firmware_config_info_cc_proto.so \
+    vendor/google/flame/proprietary/vendor/lib64/vendor.google.wifi_ext-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wifi_ext-V3-ndk.so
 
 PRODUCT_PACKAGES += \
     PixelCameraServicesFlame \
@@ -116,6 +120,7 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.extensions \
     google-ril \
     qcrilhook \
+    manifest_wifi_ext_aidl \
     vendor.qti.hardware.radio.atcmdfwd@1.0
 PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/product/etc/CarrierSettings/a1_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_at.pb \
@@ -309,7 +314,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.airbrush@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.airbrush@1.0-service \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.radioext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.radioext@1.0-service \
-    vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.wifi_ext@1.0-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.wifi_ext@1.0-service-vendor \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.wireless_charger@1.3-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.wireless_charger@1.3-service-vendor \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
@@ -542,7 +546,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.google.airbrush@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.airbrush@1.0-service.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.google.radioext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.radioext@1.0-service.rc \
-    vendor/google/flame/proprietary/vendor/etc/init/vendor.google.wifi_ext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wifi_ext@1.0-service.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.google.wireless_charger@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wireless_charger@1.3-service.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
@@ -1356,7 +1359,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/google/flame/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/google/flame/proprietary/vendor/lib64/g3a.data.manager.vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/g3a.data.manager.vendor.so \
-    vendor/google/flame/proprietary/vendor/lib64/google_wifi_firmware_config_info_cc_proto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/google_wifi_firmware_config_info_cc_proto.so \
     vendor/google/flame/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/google/flame/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/google/flame/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
@@ -1704,9 +1706,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.radioext@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.2.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.radioext@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.3.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.wifi_ext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wifi_ext@1.0.so \
-    vendor/google/flame/proprietary/vendor/lib64/vendor.google.wifi_ext@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wifi_ext@1.1.so \
-    vendor/google/flame/proprietary/vendor/lib64/vendor.google.wifi_ext@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wifi_ext@1.2.so \
-    vendor/google/flame/proprietary/vendor/lib64/vendor.google.wifi_ext@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wifi_ext@1.3.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.wireless_charger@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wireless_charger@1.0.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.wireless_charger@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wireless_charger@1.1.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.wireless_charger@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.wireless_charger@1.2.so \
@@ -1914,6 +1913,5 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0-service.citadel \
     manifest_android.hardware.drm-service.widevine \
     manifest_input.processor-service \
-    manifest_wifi_ext \
     rebootescrow-citadel \
     vendor.google.wireless_charger@1.3-service-vendor
