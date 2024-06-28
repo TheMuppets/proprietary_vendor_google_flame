@@ -122,6 +122,13 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     manifest_wifi_ext_aidl \
     vendor.qti.hardware.radio.atcmdfwd@1.0
+
+PRODUCT_PACKAGES += \
+    libdmengine_libdmengine_symlink32 \
+    libdmjavaplugin_libdmjavaplugin_symlink32 \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64 \
+    libsecureuisvc_jni_libsecureuisvc_jni_symlink64
 PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/product/etc/CarrierSettings/a1_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_at.pb \
     vendor/google/flame/proprietary/product/etc/CarrierSettings/ahamo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ahamo_jp.pb \
@@ -1917,3 +1924,11 @@ PRODUCT_PACKAGES += \
     manifest_input.processor-service \
     rebootescrow-citadel \
     vendor.google.wireless_charger@1.3-service-vendor
+
+PRODUCT_PACKAGES += \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64
