@@ -552,7 +552,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_wifi_ext_aidl",
+	name: "manifest_wifi_ext_aidl.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml",
 	filename_from_src: true,
@@ -561,7 +561,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.radio.atcmdfwd@1.0",
+	name: "vendor.qti.hardware.radio.atcmdfwd@1.0.xml",
 	owner: "google",
 	src: "proprietary/system_ext/etc/vintf/manifest/vendor.qti.hardware.radio.atcmdfwd@1.0.xml",
 	filename_from_src: true,
@@ -720,7 +720,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.confirmationui@1.0-service-google",
+	name: "android.hardware.confirmationui@1.0-service-google.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.confirmationui@1.0-service-google.xml",
 	filename_from_src: true,
@@ -729,7 +729,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.identity.strongbox",
+	name: "android.hardware.identity.strongbox.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml",
 	filename_from_src: true,
@@ -738,7 +738,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.keymaster@4.1-service.citadel",
+	name: "android.hardware.keymaster@4.1-service.citadel.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml",
 	filename_from_src: true,
@@ -747,7 +747,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-qti",
+	name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
 	filename_from_src: true,
@@ -756,7 +756,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.weaver@1.0-service.citadel",
+	name: "android.hardware.weaver@1.0-service.citadel.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml",
 	filename_from_src: true,
@@ -765,7 +765,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm-service.widevine",
+	name: "manifest_android.hardware.drm-service.widevine.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
 	filename_from_src: true,
@@ -774,7 +774,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_input.processor-service",
+	name: "manifest_input.processor-service.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_input.processor-service.xml",
 	filename_from_src: true,
@@ -783,7 +783,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "rebootescrow-citadel",
+	name: "rebootescrow-citadel.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/rebootescrow-citadel.xml",
 	filename_from_src: true,
@@ -792,7 +792,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.google.wireless_charger@1.3-service-vendor",
+	name: "vendor.google.wireless_charger@1.3-service-vendor.xml",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.google.wireless_charger@1.3-service-vendor.xml",
 	filename_from_src: true,
