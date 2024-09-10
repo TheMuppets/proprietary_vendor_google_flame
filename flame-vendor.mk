@@ -1377,7 +1377,6 @@ PRODUCT_PACKAGES += \
     lib_profiler \
     lib_sensor_listener \
     libairbrush-pixel \
-    libautocalsolvers \
     libcertverifier \
     libcom.qti.chinodeutils \
     libdarwinn_client \
