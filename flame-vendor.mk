@@ -526,6 +526,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/etc/default_f2proto.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_f2proto.mps \
     vendor/google/flame/proprietary/vendor/etc/default_flame.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_flame.mps \
     vendor/google/flame/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/google/flame/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-service-google.rc \
     vendor/google/flame/proprietary/vendor/etc/init/android.hardware.confirmationui@1.0-service-google.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.confirmationui@1.0-service-google.rc \
     vendor/google/flame/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/google/flame/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -1422,6 +1423,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib64/lib_aion_buffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_aion_buffer.so \
     vendor/google/flame/proprietary/vendor/lib64/lib_goog_chi_node_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_goog_chi_node_utils.so \
     vendor/google/flame/proprietary/vendor/lib64/lib_goog_metadata_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_goog_metadata_utils.so \
+    vendor/google/flame/proprietary/vendor/lib64/lib_profiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_profiler.so \
+    vendor/google/flame/proprietary/vendor/lib64/lib_sensor_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_sensor_listener.so \
     vendor/google/flame/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/google/flame/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/google/flame/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
@@ -1916,6 +1919,7 @@ PRODUCT_PACKAGES += \
     adreno_graphics_driver \
     gpu_profiling_vulkan_layer \
     com.google.android.camera.experimental2019 \
+    android.hardware.camera.provider@2.7-service-google.xml \
     android.hardware.confirmationui@1.0-service-google.xml \
     android.hardware.identity.strongbox.xml \
     android.hardware.keymaster@4.1-service.citadel.xml \
