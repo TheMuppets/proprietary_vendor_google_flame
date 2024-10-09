@@ -52,12 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/system_ext/priv-app/EuiccGoogle/esim-a1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccGoogle/esim-a1.img \
     vendor/google/flame/proprietary/system_ext/priv-app/EuiccGoogle/esim-a2.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccGoogle/esim-a2.img \
     vendor/google/flame/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v1.img \
-    vendor/google/flame/proprietary/vendor/etc/init/vendor.google.wifi_ext-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wifi_ext-service.rc \
     vendor/google/flame/proprietary/vendor/firmware/citadel/FIH-RC1-dev-fusing.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/citadel/FIH-RC1-dev-fusing.ec.bin
 
 PRODUCT_PACKAGES += \
-    google_wifi_firmware_config_info_cc_proto \
-    vendor.google.wifi_ext-V3-ndk \
     libdmengine \
     libdmjavaplugin \
     lib-imsvideocodec \
@@ -120,9 +117,7 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.extensions \
     google-ril \
     qcrilhook \
-    manifest_wifi_ext_aidl.xml \
-    vendor.qti.hardware.radio.atcmdfwd@1.0.xml \
-    vendor.google.wifi_ext-service-vendor
+    vendor.qti.hardware.radio.atcmdfwd@1.0.xml
 
 PRODUCT_PACKAGES += \
     libdmengine_libdmengine_symlink32 \
