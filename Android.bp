@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/google/coral",
         "hardware/google/interfaces",
         "hardware/google/pixel/pixelstats",
         "hardware/google/pixel/power-libperfmgr",
